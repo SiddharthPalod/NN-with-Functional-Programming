@@ -1,11 +1,7 @@
 # Functional Neural Network for Pima Diabetes Prediction (OCaml)
 
-![OCaml](https://img.shields.io/badge/language-OCaml-blue.svg)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
-
 ## Overview
-This project implements a functional neural network in OCaml to predict diabetes using the Pima Indians Diabetes dataset. The goal is to approach the high accuracy achieved by state-of-the-art Python solutions (notably using Keras and Optuna) with a pure OCaml implementation.
+This project implements a functional neural network in OCaml to predict diabetes using the Pima Indians Diabetes dataset. I achieved 75% accuracy with a pure OCaml functional programming based implementation.
 
 ---
 
@@ -31,7 +27,6 @@ This project implements a functional neural network in OCaml to predict diabetes
 
 ### 1. **Dependencies:**
 - OCaml (tested with 4.12+)
-- Standard library only (no external dependencies)
 
 ### 2. **Prepare Data:**
 - Place your training CSV (e.g., `diabetes.csv` or an Optuna-augmented CSV) in the project directory.
@@ -83,17 +78,7 @@ Class,Precision,Recall,F1-score,Support
 
 ---
 
-## Tips for Further Experimentation
-- Try different learning rates, dropout rates, batch sizes, and patience values.
-- Experiment with different network architectures (number and size of hidden layers).
-- Use the Optuna-augmented CSV from the Python solution for a fair comparison.
-- For very large datasets, consider optimizing data loading and processing (e.g., using arrays or streaming).
-- Add more advanced regularization (L2, learning rate scheduling) or ensemble models for further improvements.
-
----
-
-## Acknowledgements
-- The Python solution and augmentation strategy are based on [Pradeep Gurav's Kaggle notebook](https://www.kaggle.com/code/pradeepgurav/pima-diabetes-98-accuracy-optuna-rfecv-keras).
-- OCaml implementation and functional design inspired by the desire to bring modern ML techniques to functional programming.
+## Authors
+- Siddharth Palod
 
 ---
