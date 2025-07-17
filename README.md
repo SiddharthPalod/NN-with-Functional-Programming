@@ -4,6 +4,8 @@
 This project implements a functional neural network in OCaml to predict diabetes using the Pima Indians Diabetes dataset. I achieved 75% accuracy with a pure OCaml functional programming-based implementation.
 
 ## [Demo Link](https://youtu.be/cwHScudxyVs)
+![Architecture Diagram](./arch.jpg)
+
 
 ---
 
@@ -75,11 +77,11 @@ Class,Precision,Recall,F1-score,Support
 ---
 
 ## Results
+![Model Results](./report.jpg)
+
 - With the best configuration and original data, the model achieves up to **75% test accuracy**.
 - Using large, Optuna-augmented data can lead to memory issues in OCaml; for best results, use moderate augmentation or the original dataset.
 - The model outputs a detailed classification report for further analysis.
-
-![Model Results](./report.jpg)
 
 ---
 
