@@ -79,7 +79,7 @@ Class,Precision,Recall,F1-score,Support
 - Using large, Optuna-augmented data can lead to memory issues in OCaml; for best results, use moderate augmentation or the original dataset.
 - The model outputs a detailed classification report for further analysis.
 
-![Model Results](./ocaml_nn_results.png)
+![Model Results](./report.jpg)
 
 ---
 
