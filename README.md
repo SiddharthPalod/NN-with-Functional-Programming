@@ -1,7 +1,7 @@
 # Functional Neural Network for Pima Diabetes Prediction (OCaml)
 
 ## Overview
-This project implements a functional neural network in OCaml to predict diabetes using the Pima Indians Diabetes dataset. I achieved 75% accuracy with a pure OCaml functional programming based implementation.
+This project implements a functional neural network in OCaml to predict diabetes using the Pima Indians Diabetes dataset. I achieved 75% accuracy with a pure OCaml functional programming-based implementation.
 
 ---
 
@@ -27,6 +27,7 @@ This project implements a functional neural network in OCaml to predict diabetes
 
 ### 1. **Dependencies:**
 - OCaml (tested with 4.12+)
+- [Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) 
 
 ### 2. **Prepare Data:**
 - Place your training CSV (e.g., `diabetes.csv` or an Optuna-augmented CSV) in the project directory.
